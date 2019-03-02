@@ -1,0 +1,161 @@
+body {
+    font-family: Noteworthy, sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(rgb(250, 206, 240), rgb(255, 240, 252));
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.nav_bar {
+    padding: 5px;
+    color: rgb(252, 104, 190);
+    background-color: rgb(253, 239, 250);
+    box-shadow: 3px 0px 15px;
+}
+
+#nav_img {
+    margin: 0;
+    padding-left: 5px;
+    width: 2%;
+    height: 2%;
+}
+
+.nav_bar a {
+    color: rgb(252, 104, 190);
+    text-decoration: none;
+}
+
+.nav_bar_elem {
+    float: right;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.nav_bar_elem a {
+    color: rgb(252, 104, 190);
+    text-decoration: none;
+    border: 1px solid rgb(196, 195, 195);
+    border-radius: 5px; 
+    padding: 4px;
+    padding-bottom: 2px;
+    margin-right: 6px;
+}
+
+.nav_bar_elem a:hover {
+    color: rgb(253, 239, 250);
+    background-color: rgb(255, 179, 223);
+}
+
+#nav_title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 1em;
+    font-family: Noteworthy, sans-serif;
+}
+
+
+#choose, #breeds {
+    text-align: center;
+}
+
+#know {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#breeds ul {
+    list-style-type: none;
+}
+
+#choose {
+    text-align: left;
+    color: rebeccapurple;
+    text-shadow: 4px 4px rgb(187, 141, 230);
+    padding-left: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.desc_item{
+    color: rgb(137, 88, 185);
+    font-weight: bold;
+    font-family: Chalkboard, sans-serif;
+}
+
+.name {
+    border-left: 5px solid purple;
+    border-right: 5px solid purple;
+    background-color: rgb(250, 174, 174);
+    padding: 4px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.desc {
+    border:5px dotted rgb(137, 88, 185);
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-left: 20%;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
+    font-weight: normal;
+    text-align: left;
+    font-family: Chalkboard, sans-serif;
+    margin-bottom: 20px;
+}
+#minirex{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 30%;
+    box-shadow: 0 3px 20px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+}
+#Holland{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 35%;
+    box-shadow: 0 3px 20px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+}
+#Dutch{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 35%;
+    box-shadow: 0 3px 20px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+}
+#Dwarf{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 30%;
+    box-shadow: 0 3px 20px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+}
+#minilop{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 35%;
+    box-shadow: 0 3px 20px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+}
+#source {
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer {
+    background-image: linear-gradient(rgb(250, 206, 240), rgb(255, 240, 252));
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+a { color:blue ; }

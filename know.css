@@ -1,0 +1,126 @@
+
+body {
+    font-family: Noteworthy, sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(rgb(233, 206, 241),lightblue);
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.nav_bar {
+    padding: 5px;
+    color: rgb(252, 104, 190);
+    background-color: rgb(253, 239, 250);
+    box-shadow: 3px 0px 15px;
+}
+
+#nav_img {
+    margin: 0;
+    padding-left: 5px;
+    width: 2%;
+    height: 2%;
+}
+
+.nav_bar a {
+    color: rgb(252, 104, 190);
+    text-decoration: none;
+}
+
+.nav_bar_elem {
+    float: right;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.nav_bar_elem a {
+    color: rgb(252, 104, 190);
+    text-decoration: none;
+    border: 1px solid rgb(196, 195, 195);
+    border-radius: 5px; 
+    padding: 4px;
+    padding-bottom: 2px;
+    margin-right: 6px;
+}
+
+.nav_bar_elem a:hover {
+    color: rgb(253, 239, 250);
+    background-color: rgb(255, 179, 223);
+}
+#know{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Chalkboard, sans-serif;
+    color: rgb(197, 51, 197);
+}
+#behavior1, #behavior2{
+    width: 50%;
+    margin-left: 25%;
+}
+#food{
+    width: 50%;
+    margin-left: 25%;
+}
+main{
+    font-family: Chalkboard, sans-serif;
+    font-size: 1.1em;
+    width: 80%;
+    margin-left:10%;
+    margin-top: 20px;
+    color: rgb(53, 15, 88);
+
+}
+#know{
+    font-size: 2.8em;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    text-shadow: 1.5px 1.5px rgba(70, 3, 66, 0.247);
+}
+#food1{
+    font-family: Chalkboard, sans-serif;
+    font-size: 1.1em;
+    width: 80%;
+    margin-left:10%;
+    margin-top: 20px;
+    color: rgb(53, 15, 88);
+}
+#nav_title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 1em;
+    font-family: Noteworthy, sans-serif;
+}
+#help{
+    margin-left: 43%;
+    font-family: sans-serif;
+}
+#vet{
+    margin-left: 44%;
+    font-family: sans-serif;
+}
+#source{
+    margin-left: 58%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0%;
+}
+
+#food, #behavior1, #behavior2 {
+    border-radius: 8px;
+    box-shadow: 6px 6px 6px grey;
+}
+
+footer {
+    background-image: linear-gradient(rgb(81, 181, 214),lightblue );
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+a { color:blue ; }

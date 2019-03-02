@@ -1,0 +1,96 @@
+html,body{
+    width:100%;
+}
+
+body {
+    font-family: Noteworthy, sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url("imgs/main_background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav_bar {
+    padding: 5px;
+    color: rgb(252, 104, 190);
+    background-color: rgb(253, 239, 250);
+    box-shadow: 3px 0px 15px;
+}
+
+#nav_img {
+    margin: 0;
+    padding-left: 5px;
+    width: 2%;
+    height: 2%;
+}
+
+.nav_bar a {
+    color: rgb(252, 104, 190);
+    text-decoration: none;
+}
+
+.nav_bar_elem {
+    float: right;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    display: inline;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.nav_bar_elem a {
+    color: rgb(252, 104, 190);
+    text-decoration: none;
+    border: 1px solid rgb(196, 195, 195);
+    border-radius: 5px; 
+    padding: 4px;
+    padding-bottom: 2px;
+    margin-right: 6px;
+}
+
+.nav_bar_elem a:hover {
+    color: rgb(253, 239, 250);
+    background-color: rgb(255, 179, 223);
+}
+
+#main_center {
+    padding: 0;
+    padding-left: 2em;
+    font-size: 5em;
+    font-weight: bold;
+    top: 40%;
+    margin: 0;
+    position: absolute;
+}
+
+.sub {
+    margin-top: 0;
+    box-shadow: 5px 5px 5px rgb(238, 183, 255);
+    border-radius: 8px;
+    background-color: rgb(252, 214, 220);
+}
+
+.sub:hover {
+    display: block;
+}
+
+#nav_title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 1em;
+    font-family: Noteworthy, sans-serif;
+}
+
+#choose, #breeds {
+    text-align: center;
+}
+
+#know {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#breeds ul {
+    list-style-type: none;
+}
